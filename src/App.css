@@ -1,33 +1,72 @@
+body {
+  background-color: lightblue
+}
+
 .App {
-  text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.news {
+  max-width: 750px;
+  margin: 0 auto;
+  background-color: gainsboro;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-wrap {
+  margin-top: 2.6667vw;
+  background-color: white;
+  padding: 2.6667vw 5.3333vw;
+}
+
+.card-wrap:first-child {
+  margin-top: 0;
+}
+
+.card-title {
+  padding: 2.6667vw 0;
+  font-weight: 500;
+  font-size: 5.3333vw;
+  line-height: 1.4;
+  color: #1a1a1a;
+}
+
+.img-wrap {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  overflow: hidden;
+}
+.img-wrap img {
+  width: 89.3333vw;
+  height: 40vw;
+  border-radius: 5.3333vw;
 }
 
-.App-link {
-  color: #61dafb;
+.card-desc {
+  margin-top: 2.6667vw;
+  height: 26.6667vw;
+  overflow: hidden;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tools-bar {
+  display: flex;
+  align-items: center;
+  margin-top: 5.3333vw;
+}
+
+.likes {
+  padding: 1.3333vw 5.3333vw;
+  border: 1px solid;
+  border-radius: 3px;
+  color: #0084ff;
+  background-color: rgba(0, 132, 255, 0.1);
+}
+
+.likes span {
+  font-size: 3.2vw;
+}
+
+.tools-bar img {
+  margin-left: 2.6667vw;
+  width: 6.4vw;
+  height: 6.4vw;
 }
